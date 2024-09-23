@@ -1,0 +1,16 @@
+
+.header-logo-image {
+    width: 7rem;
+}
+
+.hero-media-image {
+     width: 40rem;
+}
+
+.features-box {
+    width: 40rem;
+}
+
+#mobile {
+    width: 20rem !important;
+}
