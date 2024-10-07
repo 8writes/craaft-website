@@ -15,6 +15,8 @@ export async function GET(req) {
     // Prepend 'https://' to each store_url
     const allowedOrigins = data.map((item) => `https://${item.store_url}`);
 
+     allowedOrigins.push('http://localhost:3000');
+
     const origin = req.headers.get('origin');
 
     if (!allowedOrigins.includes(origin)) {
